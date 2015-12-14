@@ -1,0 +1,44 @@
+body{
+	font-family: Arial;
+	font-size: 17px;
+	background-color: #1b2b34;
+}
+.message{
+	text-align: center;
+	color: #b2b2b2;
+	margin: 5px;
+}
+.col-izq{
+	/*width:50%;*/
+	/*float:left;*/
+}
+.col-der{
+	/*width: 50%;*/
+	/*float: left;*/
+}
+table, td{
+	border: 1px solid #294250;
+}
+th{
+	color: #f99157;
+}
+td{
+	padding: 2px 6px;
+}
+table{
+	border-collapse: collapse;
+	border-radius: 6px;
+	width: 40%;
+	margin: 0 auto;
+	color: #cdd3de;
+}
+
+.word{
+	cursor: pointer;	
+}
+.word:hover{
+	background-color: #2c3c45;		
+}
+tr td:nth-child(even){	
+	color:#1b2b34; /*Invisible*/
+}
