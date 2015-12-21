@@ -82,7 +82,7 @@
 	 			</td>
 	 			<td>
 	 				<a href="https://github.com/juanjo23" target="_blank">
-	 					<img src="images/github-cat.png">
+	 					<img src="images/octocat.png">
 	 				</a>
 	 			</td>
 
