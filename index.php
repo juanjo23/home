@@ -81,8 +81,8 @@
 	 				</a>
 	 			</td>
 	 			<td>
-	 				<a href="http://campus.ingsoft.info/" target="_blank">
-	 		 			<img src="images/cimat.png">
+	 				<a href="https://github.com/juanjo23" target="_blank">
+	 					<img src="images/github-cat.png">
 	 				</a>
 	 			</td>
 
@@ -91,7 +91,7 @@
 	 			<td>Facebook</td>
 	 			<td>Youtube</td>
 	 			<td>Lyrics Training</td>
-	 			<td>Campus Ingsoft</td>
+	 			<td>GitHub</td>
 	 		</tr>
 	 	</table>
 	 </div>
