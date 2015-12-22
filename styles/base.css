@@ -16,6 +16,47 @@ h1 {
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.5);
 }
 
+.container-todo {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  height: 200px;
+  width: 350px;
+  text-align: left;
+  font-size: 18px;
+  border-radius: 6px;
+  margin-bottom: 22px;
+  background-color: #16161f;
+  border: 1px solid #11111a;
+  position: relative;
+}
+.container-todo .to-dos {
+  color: #666666;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.container-todo .to-do {
+  cursor: pointer;
+  padding: 3px;
+  text-decoration: line-through;
+}
+.container-todo .to-do label {
+  cursor: pointer;
+}
+.container-todo .to-do input {
+  cursor: pointer;
+}
+.container-todo #add-todo {
+  position: absolute;
+  bottom: 10px;
+  background-color: #16161f;
+  font-size: 16px;
+  color: white;
+  font-family: "Century Gothic", Raleway;
+  border: none;
+  outline-color: transparent;
+}
+
 .container-dicc {
   display: inline-block;
 }

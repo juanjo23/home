@@ -4,10 +4,26 @@
 	<meta charset="UTF-8">
 	<title>.: Home :.</title>
 	<link rel="icon" type="image/png" href="favicon.png">
-	<!-- <link rel="stylesheet" href="style.css">-->
 	<link rel="stylesheet" href="styles/base.css">
 </head>
 <body>
+	<h1>To do: </h1>
+	<div class="container-todo">
+		<div class="to-dos"> 3 to do</div>
+		<div class="to-do">
+			<label>
+				<input type="checkbox" name="name" value="asd"> Inglés
+			</label>
+		</div>
+		<div class="to-do">
+			<label>
+				<input type="checkbox" name="name" value="asd"> Inglés
+			</label>
+		</div>
+		<input type="text" placeholder="new todo" id="add-todo" name="name" value="">
+	</div>
+
+	<!--
 	<h1>Word of the Day</h1>
 	<div class="container-dicc">
 		<div class="container-list">
@@ -33,7 +49,7 @@
 			<input type="text" class="inpt" placeholder="Translation..." id="input-mean">
 		</div>
 	</div>
-
+-->
 	<div class="links">
 	 	<table>
 	 		<tr>
