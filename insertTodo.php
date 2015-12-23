@@ -3,15 +3,13 @@
 	if ($mysqli->connect_errno) {
     	echo "Falló la conexión a MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 	}
+	$todo = $_REQUEST['todo'];
 
 	$mysqli->set_charset("utf8");
-	$resultado = $mysqli->query("SELECT id, todo FROM todo");
-	$datos = array();
-	$num_todo=0;
+	$mysqli->query("INSERT INTO todo (todo) VALUES('$todo')");
+	$resultado = $mysqli->query("SELECT todo FROM todo");
+
 	while ($fila = $resultado->fetch_assoc()) {
-		$num_todo++;
-		$id = $fila['id'];
-	  $todo = $fila['todo'];
-	  $datos[$id] = $todo;
+		echo $fila['todo'];
 	}
 ?>

@@ -36,9 +36,9 @@ h1 {
   margin-bottom: 10px;
 }
 .container-todo .to-do {
+  color: #aaaaaa;
   cursor: pointer;
   padding: 3px;
-  text-decoration: line-through;
 }
 .container-todo .to-do label {
   cursor: pointer;

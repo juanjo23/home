@@ -40,9 +40,9 @@ h1{
 		margin-bottom: 10px;
 	}
 	.to-do{
+		color: $text_color - 40;				
 		cursor: pointer;
 		padding: 3px;
-		text-decoration: line-through;
 		label{ cursor:pointer;}
 		input{ cursor: pointer;	}
 	}

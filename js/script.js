@@ -18,7 +18,11 @@ $("#add-todo").keyup(function(e){
 	if(e.keyCode == 13) //Enter
 	{
 		var todo = $(this).val();
-		$('.container-todo').append(todo);
+
+
+		$.get( "insertTodo.php?todo="+todo, function( data ) {
+			console.log(data);
+		});
 	}
 });
 

@@ -9,17 +9,21 @@
 <body>
 	<h1>To do: </h1>
 	<div class="container-todo">
-		<div class="to-dos"> 3 to do</div>
-		<div class="to-do">
-			<label>
-				<input type="checkbox" name="name" value="asd"> Inglés
-			</label>
-		</div>
-		<div class="to-do">
-			<label>
-				<input type="checkbox" name="name" value="asd"> Inglés
-			</label>
-		</div>
+		<?php
+			include 'conexion.php';
+		?>
+		<div class="to-dos"><span id="num_todo"><?php echo $num_todo; ?></span> to do</div>
+			<?php
+			foreach ($datos as $value) { ?>
+			<div class="to-do">
+				<label>
+					<input type="checkbox" name="name" value="asd">
+					<?php echo $value; ?>
+				</label>
+			</div>
+			<?php
+			}
+			?>
 		<input type="text" placeholder="new todo" id="add-todo" name="name" value="">
 	</div>
 
