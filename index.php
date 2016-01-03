@@ -63,25 +63,32 @@
 	 				</a>
 	 			</td>
 				<td>
+					<a href="http://www.deezer.com/" target="_blank">
+						<img src="images/deezer.png">
+					</a>
+				</td>
+				<td>
 	 				<a href="https://www.duolingo.com/" target="_blank">
 	 					<img src="images/duolingo.png">
 	 				</a>
 	 			</td>
-	 			<td>
+<!--
+				<td>
 	 				<a href="http://www.hotmail.com/" target="_blank">
 	 		 			<img src="images/outlook.png">
 	 				</a>
 	 			</td>
-
+-->
 				<td>
 	 				<a href="https://mail.google.com/" target="_blank">
 	 		 			<img src="images/gmail.png">
 	 				</a>
 	 			</td>
+
 	 		<tr class="tr-text">
 	 			<td>Trello</td>
+	 			<td>Deezer</td>
 	 			<td>Duolingo</td>
-	 			<td>Outlook</td>
 	 			<td>Gmail</td>
 	 		</tr>
 	 		<tr>
