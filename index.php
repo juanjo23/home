@@ -7,27 +7,6 @@
 	<link rel="stylesheet" href="styles/base.css">
 </head>
 <body>
-	<h1>To do: </h1>
-	<div class="container-todo">
-		<?php
-			include 'conexion.php';
-		?>
-		<div class="to-dos"><span id="num_todo"><?php echo $num_todo; ?></span> to do</div>
-			<?php
-			foreach ($datos as $value) { ?>
-			<div class="to-do">
-				<label>
-					<input type="checkbox" name="name" value="asd">
-					<?php echo $value; ?>
-				</label>
-			</div>
-			<?php
-			}
-			?>
-		<input type="text" placeholder="new todo" id="add-todo" name="name" value="">
-	</div>
-
-	<!--
 	<h1>Word of the Day</h1>
 	<div class="container-dicc">
 		<div class="container-list">
@@ -53,7 +32,7 @@
 			<input type="text" class="inpt" placeholder="Translation..." id="input-mean">
 		</div>
 	</div>
--->
+
 	<div class="links">
 	 	<table>
 	 		<tr>
@@ -72,13 +51,6 @@
 	 					<img src="images/duolingo.png">
 	 				</a>
 	 			</td>
-<!--
-				<td>
-	 				<a href="http://www.hotmail.com/" target="_blank">
-	 		 			<img src="images/outlook.png">
-	 				</a>
-	 			</td>
--->
 				<td>
 	 				<a href="https://mail.google.com/" target="_blank">
 	 		 			<img src="images/gmail.png">

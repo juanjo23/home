@@ -20,43 +20,6 @@ h1{
 	color: $text_color;
 	text-shadow: 2px 4px 3px rgba(0,0,0,0.5);
 }
-.container-todo{
-	display: inline-block;
-	box-sizing: border-box;
-	padding: 10px 20px;
-	height: 200px;
-	width: 350px;
-	text-align: left;
-	font-size: $fs;
-	border-radius: 6px;
-	margin-bottom: 22px;
-	background-color: $base_color - 13;
-	border: 1px solid $base_color - 18;
-	position: relative;
-
-	.to-dos{
-		color: $text_color - 108;
-		font-size: $fs ;
-		margin-bottom: 10px;
-	}
-	.to-do{
-		color: $text_color - 40;				
-		cursor: pointer;
-		padding: 3px;
-		label{ cursor:pointer;}
-		input{ cursor: pointer;	}
-	}
-	#add-todo{
-		position: absolute;
-		bottom:10px;
-		background-color: $base_color - 13;
-		font-size: $fs - 2;
-		color:white;
-		font-family: $gothic_font;
-		border: none;
-		outline-color: transparent;
-	}
-}
 .container-dicc {
 	display: inline-block;
 	.inpt{
