@@ -4,5 +4,5 @@ That is my home page, where i can see my favorites / more used pages, and I can 
 
 
 
-
+![](/images/capture.png)
 
