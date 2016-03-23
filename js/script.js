@@ -130,19 +130,21 @@ function activeFirst(){
 }
 
 
+//Atajos de teclado
 $(document).keypress(function(e){
 	if( $("input").is(":focus") ){
 		return 0;
 	}
-	switch(e.keyCode){
-		case 116: window.open(links[0]); break; //T
-		case 100: window.open(links[1]); break; //D
-		case 104: window.open(links[2]); break; //H
-		case 103: window.open(links[3]); break; //G
-		case 102: window.open(links[4]); break; //F
-		case 121: window.open(links[5]); break; //Y
-		case 108: window.open(links[6]); break; //L
-		case 99: window.open(links[7]); break; //C
+	var charCode = String.fromCharCode(e.keyCode);
+	
+	switch(charCode){
+		case 'T': case 'T': window.open(links[0]); break; 
+		case 'd': case 'D': window.open(links[1]); break; 
+		case 'h': case 'H': window.open(links[2]); break; 
+		case 'g': case 'G': window.open(links[3]); break; 
+		case 'f': case 'F': window.open(links[4]); break; 
+		case 'y': case 'Y': window.open(links[5]); break;
+		case 'l': case 'L': window.open(links[6]); break;		
 	}
 });
 
@@ -154,4 +156,5 @@ var links = [
 		"https://www.facebook.com/",
 		"https://www.youtube.com/",
 		"http://lyricstraining.com/",
-		"http://campus.ingsoft.info/"];
+		"http://campus.ingsoft.info/"
+		];

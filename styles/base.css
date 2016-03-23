@@ -42,11 +42,14 @@ h1 {
   width: 200px;
   float: left;
   text-align: left;
+  border: 1px solid #41414a;  
+  border-radius: 4px;
 }
 .container-dicc .container-list .list-words {
-  height: 160px;
+  height: 170px;
+  background-color: #36363f;
   overflow: hidden;
-  overflow-y: scroll;
+  overflow-y: auto;
   direction: rtl;
 }
 .container-dicc .container-list .list-words .proj {
@@ -62,19 +65,6 @@ h1 {
 .container-dicc .container-list .list-words .proj.active {
   background-color: #34343d;
 }
-.container-dicc .container-list .view-all {
-  font-size: 14px;
-  font-family: "Century Gothic", Raleway;
-  cursor: pointer;
-  padding: 2px 6px;
-  border-radius: 0px 0px 4px 4px;
-  border-top: 1px solid #31313a;
-  background-color: #36363f;
-  color: #d2d2d2;
-}
-.container-dicc .container-list .view-all:hover {
-  background-color: #3d3d46;
-}
 .container-dicc .container-right {
   width: 215px;
   margin-left: 15px;
@@ -86,7 +76,7 @@ h1 {
   vertical-align: middle;
   font-size: 18px;
   padding: 10px;
-  margin-bottom: 22px;
+  margin-bottom: 29px;
   overflow: auto;
   border-radius: 6px;
   border: 1px solid #4b4b54;
@@ -99,7 +89,7 @@ h1 {
   margin: 0 auto;
   padding: 10px 0px;
   margin-bottom: 25px;
-  margin-top: 20px;
+  margin-top: 25px;
   background-color: #3b3b44;
   border: 1px solid #4b4b54;
 }

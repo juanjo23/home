@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>.: Home :.</title>
-	<link rel="icon" type="image/png" href="favicon.png">
+	<link rel="icon" type="image/png" href="images/favicon.png">
 	<link rel="stylesheet" href="styles/base.css">
 </head>
 <body>
@@ -24,8 +24,7 @@
 					<?php echo json_encode($datos).";";?>
 			  </script>
 			</div>
-			<div class="view-all">View all...</div>
-		</div>
+					</div>
 		<div class="container-right">
 			<div id="mean"></div>
 			<input type="text" class="inpt" placeholder="Word..."        id="input-word" style="margin-bottom:15px;">
@@ -99,7 +98,7 @@
 	 <div class="final-links">
 
 	 	<a href="http://www.deezer.com/" target="_blank">Deezer</a> &nbsp; | &nbsp;
-	 	<a href="https://twitter.com/" target="_blank">Twitta</a> &nbsp; | &nbsp;
+	 	<a href="https://twitter.com/" target="_blank">Twitter</a> &nbsp; | &nbsp;
 	 	<a href="https://chains.cc/" target="_blank">Chains</a> &nbsp; | &nbsp;
 	 	<a href="http://www.newsinlevels.com/" target="_blank">News in Levels</a> &nbsp; | &nbsp;
 	 	<a href="https://translate.google.com/" target="_blank">Traductor</a>
