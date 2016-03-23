@@ -5,7 +5,7 @@
 	$pass = "";
 	$db = "mydictionary";
 
-	$mysqli = mysqli($host, $user, $pass, $db);	
+	$mysqli = new mysqli($host, $user, $pass, $db);	
 	if ($mysqli->connect_errno) {
     	echo "Falló en la conexión a MySQL: " . $mysqli->connect_error;
 	}
