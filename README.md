@@ -2,18 +2,16 @@
 
 My homepage, it has a small dictionary of English-Spanish words, and includes my favorite and most used sites.
 
-![](/images/capture.png)
+![](/images/screenshot.png)
 
 
 
 ### Base de datos:
 
-Para poder utilizar **Home** necesitas una base de datos MySQL o MariaDB, en ella
-
-crea una base de datos: 'mydictionary', y agrega una tabla 'word':
+Para el uso de la aplicación es necesario contar con una base de datos MySQL o MariaDB, dentro de ella crear el siguiente esquema:
 
 ``` sql
-CREATE DATABASE `mydictionary`;
+CREATE SCHEMA `mydictionary`;
 
 CREATE TABLE `mydictionary`.`word` (
     `id` INT NOT NULL AUTO_INCREMENT,
@@ -23,8 +21,5 @@ CREATE TABLE `mydictionary`.`word` (
 ) ENGINE = InnoDB;
 
 ```
-
-
-
 
 
