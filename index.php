@@ -36,8 +36,8 @@
 	 	<table>
 	 		<tr>
 	 			<td>
-	 				<a href="https://trello.com/" target="_blank" >
-	 					<img src="images/trello.png">
+	 				<a href="https://todoist.com/app?lang=es&v=730#project%2F168212524" target="_blank" >
+	 					<img src="images/todoist.png">
 	 				</a>
 	 			</td>
 				<td>
@@ -57,7 +57,7 @@
 	 			</td>
 
 	 		<tr class="tr-text">
-	 			<td>Trello</td>
+	 			<td>Todoist</td>
 	 			<td>Deezer</td>
 	 			<td>Duolingo</td>
 	 			<td>Gmail</td>
