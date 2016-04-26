@@ -138,7 +138,7 @@ $(document).keypress(function(e){
 	var charCode = String.fromCharCode(e.keyCode);
 	
 	switch(charCode){
-		case 'T': case 'T': window.open(links[0]); break; 
+		case 't': case 'T': window.open(links[0]); break; 
 		case 'd': case 'D': window.open(links[1]); break; 
 		case 'h': case 'H': window.open(links[2]); break; 
 		case 'g': case 'G': window.open(links[3]); break; 
@@ -149,12 +149,11 @@ $(document).keypress(function(e){
 });
 
 var links = [
-		"https://trello.com/",
+		"https://todoist.com/app?lang=es&v=730#project%2F168212524",
 		"http://www.deezer.com/",
 		"http://www.hotmail.com/",
 		"https://mail.google.com/",
 		"https://www.facebook.com/",
 		"https://www.youtube.com/",
-		"http://lyricstraining.com/",
-		"http://campus.ingsoft.info/"
+		"http://lyricstraining.com/"
 		];
