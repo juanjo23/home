@@ -47,13 +47,13 @@ h1{
 		float: left;
 		text-align: left;
 		background-color: $base_color+30;
-		border: 1px solid #41414a;  
+		border: 1px solid #41414a;
   		border-radius: 4px;
 
 		.list-words{
-			height: 160px;
+			height: 170px;
 			overflow: hidden;
-  			overflow-y: auto;
+  		overflow-y: auto;
 			direction: rtl;
 			background-color: $base_color+19;
 
@@ -70,7 +70,7 @@ h1{
 			.proj.active{
 				background-color: $base_color +17;
 			}
-		}		
+		}
 	}
 
 	.container-right {
@@ -92,9 +92,10 @@ h1{
 		}
 	}
 }
+
 .links{
 	border-radius: 6px;
-	width: 650px;
+	width: 750px;
 	margin: 0 auto;
 	padding: 10px 0px;
 	margin-bottom: 25px;

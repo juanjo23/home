@@ -42,15 +42,16 @@ h1 {
   width: 200px;
   float: left;
   text-align: left;
-  border: 1px solid #41414a;  
+  background-color: #41414a;
+  border: 1px solid #41414a;
   border-radius: 4px;
 }
 .container-dicc .container-list .list-words {
   height: 170px;
-  background-color: #36363f;
   overflow: hidden;
   overflow-y: auto;
   direction: rtl;
+  background-color: #36363f;
 }
 .container-dicc .container-list .list-words .proj {
   cursor: pointer;
@@ -85,7 +86,7 @@ h1 {
 
 .links {
   border-radius: 6px;
-  width: 650px;
+  width: 750px;
   margin: 0 auto;
   padding: 10px 0px;
   margin-bottom: 25px;

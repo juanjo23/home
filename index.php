@@ -41,26 +41,32 @@
 	 				</a>
 	 			</td>
 				<td>
-					<a href="http://www.deezer.com/" target="_blank">
-						<img src="images/deezer.png">
+	 				<a href="https://www.wunderlist.com/#/lists/inbox" target="_blank" >
+	 					<img src="images/wunderlist.png">
+	 				</a>
+	 			</td>
+				<td>
+					<a href="https://trello.com/" target="_blank" >
+						<img src="images/trello.png">
 					</a>
 				</td>
 				<td>
-	 				<a href="https://www.duolingo.com/" target="_blank">
-	 					<img src="images/duolingo.png">
-	 				</a>
-	 			</td>
+					<a href="https://mail.google.com/" target="_blank">
+						<img src="images/gmail.png">
+					</a>
+				</td>
 				<td>
-	 				<a href="https://mail.google.com/" target="_blank">
-	 		 			<img src="images/gmail.png">
-	 				</a>
-	 			</td>
-
+					<a href="https://github.com/juanjo23" target="_blank">
+						<img src="images/octocat.png">
+					</a>
+				</td>
+			</tr>
 	 		<tr class="tr-text">
 	 			<td>Todoist</td>
-	 			<td>Deezer</td>
-	 			<td>Duolingo</td>
+	 			<td>Wunderlist</td>
+				<td>Trello</td>
 	 			<td>Gmail</td>
+				<td>Github</td>
 	 		</tr>
 	 		<tr>
 	 			<td>
@@ -78,18 +84,23 @@
 	 		 			<img src="images/lyrics.png">
 	 				</a>
 	 			</td>
-	 			<td>
-	 				<a href="https://github.com/juanjo23" target="_blank">
-	 					<img src="images/octocat.png">
+				<td>
+					<a href="http://www.deezer.com/" target="_blank">
+						<img src="images/deezer.png">
+					</a>
+				</td>
+				<td>
+	 				<a href="https://www.duolingo.com/" target="_blank">
+	 					<img src="images/duolingo.png">
 	 				</a>
 	 			</td>
-
 	 		</tr>
 	 		<tr>
 	 			<td>Facebook</td>
 	 			<td>Youtube</td>
 	 			<td>Lyrics Training</td>
-	 			<td>GitHub</td>
+	 			<td>Deezer</td>
+				<td>Duolingo</td>
 	 		</tr>
 	 	</table>
 	 </div>
