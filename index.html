@@ -10,18 +10,10 @@
 	<h1>Word of the Day</h1>
 	<div class="container-dicc">
 		<div class="container-list">
-			<?php include 'conexion.php'; ?>
 			<input type="text" class="inpt" placeholder="Search word..." id="input-search">
 			<div class="list-words">
-			  <?php
-				$words = array_keys($datos);
-				for($i=0; $i<count($words); $i++){
-					echo "<div class='proj'>$words[$i]</div>";
-				}
-			  ?>
 			  <script>
-				var words =
-					<?php echo json_encode($datos).";";?>
+				var words;
 			  </script>
 			</div>
 					</div>
@@ -36,7 +28,7 @@
 	 	<table>
 	 		<tr>
 	 			<td>
-	 				<a href="https://todoist.com/app?lang=es&v=816#agenda%2Fvencida%2C%20today" target="_blank">	
+	 				<a href="https://todoist.com/app?lang=es&v=730#project%2F168212524" target="_blank" >
 	 					<img src="images/todoist.png">
 	 				</a>
 	 			</td>
